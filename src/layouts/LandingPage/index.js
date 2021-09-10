@@ -5,8 +5,8 @@ import Footer from '../../Components/Footer';
 
 export default function LandingPageLayout({ heading, ...otherProps }) {
 	return (
-		<div className="min-h-full bg-gray-100 font-bold">
-			<div className="h-screen flex flex-col">
+		<div className="min-h-full bg-gray-100 max-w-7xl mx-auto">
+			<div className="h-screen flex flex-col font-bold">
 				<Header />
 				<div
 					className="relative flex items-center justify-center h-full
@@ -24,7 +24,7 @@ export default function LandingPageLayout({ heading, ...otherProps }) {
 					<div className=" z-0 absolute -top-0 -left-0 h-full w-full bg-black opacity-25" />
 				</div>
 			</div>
-			<div className="bg-gray-200 w-full max-w-7xl mx-auto">
+			<div className="bg-gray-100 w-full max-w-7xl mx-auto">
 				{otherProps.children}
 			</div>
 			<Footer />

@@ -3,7 +3,7 @@ import Photo from './../../assets/field-6574455_1280.jpg';
 
 export default function Cards({ ...otherProps }) {
 	return (
-		<div className="flex flex-row flex-wrap py-14 justify-center">
+		<div className="flex flex-row flex-wrap py-14 justify-center mx-8">
 			<div className=" w-full lg:w-3/6 xl:w-4/12 px-2.5 mb-5">
 				<div className="bg-white shadow-sm">
 					<div>
