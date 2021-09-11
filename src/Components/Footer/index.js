@@ -1,6 +1,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import {
+	faFacebook,
+	faInstagramSquare,
+	faTwitter,
+	faGithub,
+	faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
+
+const brands = [faFacebook, faInstagramSquare, faTwitter, faGithub, faYoutube];
 
 const element = <FontAwesomeIcon icon={faAngleDown} />;
 
@@ -81,7 +90,7 @@ export default function Footer({ ...otherProps }) {
 				</ul>
 				<div
 					className="min-w-full border-t border-b flex items-center  border-gray-400 border-opacity-30 
-				pl-2 gap-1row-start-2 col-start-1 col-span-5 text-sm"
+				pl-2 row-start-2 col-start-1 col-span-5 text-sm"
 				>
 					<div className=" mr-96">
 						<ul>
@@ -100,6 +109,11 @@ export default function Footer({ ...otherProps }) {
 					<button className="bg-indigo-500 h-1/4 rounded text-center ml-2 my-2 px-4 text-white">
 						Subscribe
 					</button>
+				</div>
+				<div className="flex justify-center items-center  row-start-3 col-start 1 col-span-5">
+					{brands.map((item) => (
+						<FontAwesomeIcon className="text-lg mx-2 mt-6" icon={item} />
+					))}
 				</div>
 			</div>
 		</footer>
