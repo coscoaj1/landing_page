@@ -9,7 +9,7 @@ export default function Footer({ ...otherProps }) {
 		<footer className="bg-white rounded mx-8 pb-5">
 			<div
 				className="bg-regal-blue rounded-lg text-xs
-				 text-gray-400 
+				 text-gray-400
             px-4 grid grid-cols-5 grid-rows-2 w-full max-w-7xl mx-auto py-10"
 			>
 				<ul className="col-start-1 leading-loose pl-2">
@@ -42,7 +42,7 @@ export default function Footer({ ...otherProps }) {
 				<ul className="col-start-5 leading-loose">
 					<li className="text-sm font-medium pb-1">LANGUAGE</li>
 					<button
-						className=" w-3/4 flex items-center justify-between px-2 rounded-md bg-button-blue"
+						className=" w-full h-1/4 flex items-center justify-between px-2 rounded-md bg-button-blue"
 						type="submit"
 					>
 						English
