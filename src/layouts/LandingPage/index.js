@@ -5,7 +5,7 @@ import Footer from '../../Components/Footer';
 
 export default function LandingPageLayout({ heading, ...otherProps }) {
 	return (
-		<div className="min-h-full bg-gray-100 max-w-7xl mx-auto">
+		<div className="min-h-full bg-gray-100 max-w-7xl mx-auto font-body">
 			<div className="h-screen flex flex-col font-bold">
 				<Header />
 				<div
