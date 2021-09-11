@@ -14,30 +14,60 @@ export default function Footer({ ...otherProps }) {
 			>
 				<ul className="col-start-1 leading-loose pl-2">
 					<li className="text-sm font-medium pb-1">SOLUTIONS</li>
-					<li>Marketing</li>
-					<li>Analytics</li>
-					<li>Commerce</li>
-					<li className="pb-4">Insights</li>
+					<li>
+						<a href="/#">Marketing</a>
+					</li>
+					<li>
+						<a href="/#">Analytics</a>
+					</li>
+					<li>
+						<a href="/#">Commerce</a>
+					</li>
+					<li className="pb-4">
+						<a href="/#">Insights</a>
+					</li>
 				</ul>
 				<ul className="col-start-2 leading-loose">
 					<li className="text-sm font-medium pb-1">SUPPORT</li>
-					<li>Pricing</li>
-					<li>Contact</li>
-					<li>Documentation</li>
-					<li>Guides</li>
+					<li>
+						<a href="/#">Pricing</a>
+					</li>
+					<li>
+						<a href="/#">Contact</a>
+					</li>
+					<li>
+						<a href="/#">Documentation</a>
+					</li>
+					<li>
+						<a href="/#">Guides</a>
+					</li>
 				</ul>
 				<ul className="col-start-3 leading-loose">
 					<li className="text-sm  font-medium pb-1">COMPANY</li>
-					<li>About</li>
-					<li>Blog</li>
-					<li>Careers</li>
-					<li>Press</li>
+					<li>
+						<a href="/#">About</a>
+					</li>
+					<li>
+						<a href="/#">Blog</a>
+					</li>
+					<li>
+						<a href="/#">Careers</a>
+					</li>
+					<li>
+						<a href="/#">Press</a>
+					</li>
 				</ul>
 				<ul className="col-start-4 leading-loose">
 					<li className="pb-1 text-sm font-semibold">LEGAL</li>
-					<li>Claim</li>
-					<li>Privacy</li>
-					<li>Terms</li>
+					<li>
+						<a href="/#">Claim</a>
+					</li>
+					<li>
+						<a href="/#">Privacy</a>
+					</li>
+					<li>
+						<a href="/#">Terms</a>
+					</li>
 				</ul>
 				<ul className="col-start-5 leading-loose">
 					<li className="text-sm font-medium pb-1">LANGUAGE</li>
