@@ -4,8 +4,9 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				'regal-blue': '#1f2937',
-				'button-blue': '#374151',
+				'regal-black': '#181f1c',
+				button1: '#9c7ca5',
+				button2: '#d9dbf1',
 			},
 		},
 		fontFamily: {
@@ -17,3 +18,7 @@ module.exports = {
 	},
 	plugins: [],
 };
+
+//["1F2324","C1B8A8","575457","C1B8A8","C1B8A8"]
+
+//210f04

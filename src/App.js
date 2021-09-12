@@ -11,7 +11,7 @@ function App() {
 	return (
 		<Switch>
 			<Route path="/">
-				<LandingPageLayout heading="Flowers in a Can">
+				<LandingPageLayout heading="Remote Destinations">
 					<HomePage />
 				</LandingPageLayout>
 			</Route>

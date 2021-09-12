@@ -1,6 +1,9 @@
 import { React, useState } from 'react';
-import Logo from './../../assets/feather.png';
 import { BrowserRouter, Link } from 'react-router-dom';
+import { faMapSigns } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+const logo = <FontAwesomeIcon icon={faMapSigns} />;
 
 const Header = ({ ...otherProps }) => {
 	const [active, setActive] = useState(false);
@@ -11,9 +14,7 @@ const Header = ({ ...otherProps }) => {
 	return (
 		<header className="relative ">
 			<div className="max-w-7xl mx-auto flex items-center justify-between p-2.5">
-				<div className="w-14">
-					<img src={Logo} className="w-full" />
-				</div>
+				<div className="w-full text-2xl">{logo}</div>
 
 				<div onClick={onClick} className={`md:hidden uppercase`}>
 					Menu
@@ -27,17 +28,17 @@ const Header = ({ ...otherProps }) => {
 					<ul className="md:flex-row md:flex">
 						<li className="list-none">
 							<Link className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer pt-2.5 px-2.5">
-								Page
+								Home
 							</Link>
 						</li>
 						<li className="list-none">
 							<Link className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer pt-2.5 px-2.5">
-								Page
+								About
 							</Link>
 						</li>
 						<li className="list-none">
 							<Link className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer pt-2.5 px-2.5">
-								Page
+								Blog
 							</Link>
 						</li>
 					</ul>

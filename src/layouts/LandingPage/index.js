@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from '../../Components/Header';
-import Hero from '../../assets/flowers-6561379_1920.jpg';
+import Hero from '../../assets/mountains-4549189_1920.jpg';
 import Footer from '../../Components/Footer';
 
 export default function LandingPageLayout({ heading, ...otherProps }) {
 	return (
-		<div className="min-h-full bg-gray-100 max-w-7xl mx-auto font-body">
+		<div className="min-h-full bg-ivory max-w-7xl mx-auto font-body">
 			<div className="h-screen flex flex-col font-bold">
 				<Header />
 				<div
