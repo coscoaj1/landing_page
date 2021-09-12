@@ -16,7 +16,7 @@ export default function Cards({ ...otherProps }) {
 								<span>Alaska</span>
 							</li>
 							<li className="list-none">
-								<span className="">Description</span>
+								<span className="text-gray-500 font-normal">$2200</span>
 							</li>
 						</ul>
 					</div>
@@ -33,7 +33,7 @@ export default function Cards({ ...otherProps }) {
 								<span>Italy</span>
 							</li>
 							<li className="list-none">
-								<span className="">$1600</span>
+								<span className="text-gray-500 font-normal">$1600</span>
 							</li>
 						</ul>
 					</div>
